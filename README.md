@@ -8,10 +8,10 @@ Eine Installationsanleitung findet ihr [hier](https://doc.rust-lang.org/stable/b
     * C++ Support
     * Windows 10/11 SDK
 * [Rust Toolchain](https://www.rust-lang.org/tools/install)
-   * Rust Analyzer (language server): `rustup.exe component add rust-analyzer`
-   * Clippy (linter):  `rustup.exe component add clippy`
-   * rust-fmt (Source Code formatter): `rustup.exe component add rustfmt`
-   * rust-docs (Bibliotheks Referenz Doku): `rustup.exe component add rust-docs`
+    * Rust Analyzer (language server): `rustup.exe component add rust-analyzer`
+    * Clippy (linter):  `rustup.exe component add clippy`
+    * rust-fmt (Source Code formatter): `rustup.exe component add rustfmt`
+    * rust-docs (Bibliotheks Referenz Doku): `rustup.exe component add rust-docs`
 * [Visual Studio Code](https://code.visualstudio.com/Download)
     * rust-analyzer Extension
     * Cargo Extension
