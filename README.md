@@ -26,6 +26,14 @@ Eine Installationsanleitung findet ihr [hier](https://doc.rust-lang.org/stable/b
     * [Signal Messanger](https://github.com/signalapp?language=rust)
     * [Google fuchsia kernel](https://fuchsia.dev/fuchsia-src/development/languages/rust)
 * [crates.io](https://crates.io/) Bibliotheks repository mit mittlerweile > 130.000 Bibliotheken
+* Breites Einsatzspektrum
+  * Kommandozeilen und Desktop Anwendungen
+  * Web und Serverbackend Anwendungen
+  * Embedded (bare-metal) Microcontroller Entwicklung
+* Striktes Typsystem (jedes Sprachobjekt hat bekannten Typ zur Compiletime)
+* "Ownership" Memory Managment (weder malloc()/free() noch Garbage Collector nötig)
+* Memory Safety by design (keine Pointer Arithmetik, keine Null Pointer Exceptions etc)
+* "unsicherer" Code trotzdem möglich (unsafe Blöcke) - Hohe flexibilität
 
 
 ## Link Sammlung
