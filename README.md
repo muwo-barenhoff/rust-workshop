@@ -4,9 +4,7 @@
 
 Eine Installationsanleitung findet ihr [hier](https://doc.rust-lang.org/stable/book/ch01-01-installation.html) im rust book.
 
-* [Visual Studio 2022 Community](https://visualstudio.microsoft.com/de/downloads/)
-    * C++ Support
-    * Windows 10/11 SDK
+* [Microsoft Build Tools 2015 Update 3](https://visualstudio.microsoft.com/de/vs/older-downloads/)
 * [Rust Toolchain](https://www.rust-lang.org/tools/install)
 * [Visual Studio Code](https://code.visualstudio.com/Download)
     * rust-analyzer Extension
