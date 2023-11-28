@@ -6,10 +6,15 @@ Eine Installationsanleitung findet ihr [hier](https://doc.rust-lang.org/stable/b
 
 * [Microsoft Build Tools 2015 Update 3](https://visualstudio.microsoft.com/de/vs/older-downloads/)
 * [Rust Toolchain](https://www.rust-lang.org/tools/install)
+    * Rust Analyzer (language server): `rustup.exe component add rust-analyzer`
+    * Clippy (linter):  `rustup.exe component add clippy`
+    * rust-fmt (Source Code formatter): `rustup.exe component add rustfmt`
+    * rust-docs (Bibliotheks Referenz Doku): `rustup.exe component add rust-docs`
 * [Visual Studio Code](https://code.visualstudio.com/Download)
     * rust-analyzer Extension
     * Cargo Extension
     * Even Better TOML
+    * CodeLLDB
 
 ## Ein paar Hintergründe
 
@@ -24,6 +29,14 @@ Eine Installationsanleitung findet ihr [hier](https://doc.rust-lang.org/stable/b
     * [Signal Messanger](https://github.com/signalapp?language=rust)
     * [Google fuchsia kernel](https://fuchsia.dev/fuchsia-src/development/languages/rust)
 * [crates.io](https://crates.io/) Bibliotheks repository mit mittlerweile > 130.000 Bibliotheken
+* Breites Einsatzspektrum
+  * Kommandozeilen und Desktop Anwendungen
+  * Web und Serverbackend Anwendungen
+  * Embedded (bare-metal) Microcontroller Entwicklung
+* Striktes Typsystem (jedes Sprachobjekt hat bekannten Typ zur Compiletime)
+* "Ownership" Memory Managment (weder malloc()/free() noch Garbage Collector nötig)
+* Memory Safety by design (keine Pointer Arithmetik, keine Null Pointer Exceptions etc)
+* "unsicherer" Code trotzdem möglich (unsafe Blöcke) - Hohe flexibilität
 
 
 ## Link Sammlung
